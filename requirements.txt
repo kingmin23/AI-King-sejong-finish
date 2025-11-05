@@ -1,1 +1,4 @@
-flask\nflask_cors
+flask
+flask-cors
+openai
+jamo
