@@ -5,7 +5,7 @@ from compose_hcj_to_hangul_dataset2 import compose_text
 from openai import OpenAI
 import os
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.getenv("OPEN_API_KEY")
 client = OpenAI(api_key=openai_api_key)
 
 def gpt_translate(text):
@@ -25,7 +25,7 @@ mapping = load_mapping("map/combined_old_mapped.csv")
 
 @app.route("/")
 def index():
-    return "Old Hangul Translator API is running!"
+    return render_template("index.html")
 
 @app.route("/translate", methods=["POST"])
 def translate():
