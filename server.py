@@ -4,8 +4,8 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
-#.env 파일 로드 (경로 명시)
-load_dotenv(dotenv_path="C:/Users/Gram/Documents/AiKing/AI-King-sejong-main/.env")
+#.env 파일 로드
+load_dotenv()
 
 #환경변수 테스트 출력
 print("환경 변수 확인:", os.environ.get("OPENAI_API_KEY"))
@@ -52,5 +52,3 @@ def translate():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
-
-print("🔑 API Key 확인:", os.environ.get("OPENAI_API_KEY"))
