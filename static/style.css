@@ -50,8 +50,8 @@ body {
   font-size: 0.9rem;
 }
 
-/* 왕관 이미지 */
-.Ai-king,
+/* 왕관(세종대왕) 이미지 */
+.AI-king,
 .crown {
   width: 90px;
   height: auto;
