@@ -27,7 +27,7 @@ export default function App() {
   return (
     <div className="container">
       <header className="header">
-        <img src="\/AI-king.jpeg\" alt="Ai-King" className="Ai-King" />
+        <img src="\/AI-king.jpeg\" alt="AI-King" className="AI-King" />
         {/* 왕관 이미지 들어갈 자리 */}
         {/* 예시: <img src=\"/your-crown.png\" alt=\"왕관\" className=\"crown\" /> */}
         <h1>중세국어 번역기</h1>
