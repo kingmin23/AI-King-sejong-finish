@@ -7,9 +7,6 @@ import os
 #.env 파일 로드
 load_dotenv()
 
-#환경변수 테스트 출력
-print("환경 변수 확인:", os.environ.get("OPENAI_API_KEY"))
-
 #OpenAI 클라이언트 초기화
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
